@@ -1,0 +1,2 @@
+Regresja_dart-idx,Regresja_dart-precyzja,Regresja_dart-std
+827,0.25,0.049

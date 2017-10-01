@@ -1,0 +1,2 @@
+Regresja_logistyczna-idx,Regresja_logistyczna-precyzja,Regresja_logistyczna-std
+261,0.26,0.043

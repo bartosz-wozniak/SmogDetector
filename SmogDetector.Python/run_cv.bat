@@ -1,0 +1,5 @@
+python get_result_ver_3_cv.py
+python get_result_ver_4_cv.py
+python get_result_ver_5_cv.py
+python get_result_ver_6_cv.py
+python get_result_ver_7_cv.py

@@ -1,0 +1,2 @@
+Regresja-idx,Regresja-precyzja,Regresja-std
+827,0.25,0.049

@@ -1,0 +1,2 @@
+Klasyfikacja-idx,Klasyfikacja-precyzja,Klasyfikacja-std
+131,0.76,0.04

@@ -1,0 +1,2 @@
+Klasyfikacja_dart-idx,Klasyfikacja_dart-precyzja,Klasyfikacja_dart-std
+51,0.24,0.043

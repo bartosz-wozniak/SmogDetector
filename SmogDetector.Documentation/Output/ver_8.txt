@@ -1,0 +1,148 @@
+[('booster', 'gblinear'), ('silent', 1), ('objective', 'multi:softmax'), ('num_class', 4), ('eval_metric', 'mlogloss'), ('eval_metric', 'merror')]
+[0]     train-mlogloss:1.02298  train-merror:0.400926   eval-mlogloss:2.33233   eval-merror:0.380952
+Multiple eval metrics have been passed: 'eval-merror' will be used for early stopping.
+
+Will train until eval-merror hasn't improved in 100 rounds.
+[1]     train-mlogloss:0.911161 train-merror:0.356481   eval-mlogloss:2.03605   eval-merror:0.372024
+[2]     train-mlogloss:0.85711  train-merror:0.330556   eval-mlogloss:1.47047   eval-merror:0.366071
+[3]     train-mlogloss:0.819112 train-merror:0.321296   eval-mlogloss:1.38655   eval-merror:0.383929
+[4]     train-mlogloss:0.796251 train-merror:0.319444   eval-mlogloss:1.34505   eval-merror:0.39881
+[5]     train-mlogloss:0.778496 train-merror:0.309259   eval-mlogloss:1.30866   eval-merror:0.410714
+[6]     train-mlogloss:0.765858 train-merror:0.302778   eval-mlogloss:1.46049   eval-merror:0.419643
+[7]     train-mlogloss:0.754662 train-merror:0.293519   eval-mlogloss:1.47848   eval-merror:0.422619
+[8]     train-mlogloss:0.745335 train-merror:0.296296   eval-mlogloss:1.47064   eval-merror:0.41369
+[9]     train-mlogloss:0.737616 train-merror:0.296296   eval-mlogloss:1.50727   eval-merror:0.410714
+[10]    train-mlogloss:0.731349 train-merror:0.288889   eval-mlogloss:1.44527   eval-merror:0.404762
+[11]    train-mlogloss:0.725089 train-merror:0.286111   eval-mlogloss:1.39542   eval-merror:0.407738
+[12]    train-mlogloss:0.719549 train-merror:0.285185   eval-mlogloss:1.29175   eval-merror:0.404762
+[13]    train-mlogloss:0.714934 train-merror:0.284259   eval-mlogloss:1.24574   eval-merror:0.392857
+[14]    train-mlogloss:0.710959 train-merror:0.284259   eval-mlogloss:1.18841   eval-merror:0.380952
+[15]    train-mlogloss:0.707236 train-merror:0.278704   eval-mlogloss:1.16387   eval-merror:0.392857
+[16]    train-mlogloss:0.70378  train-merror:0.27963    eval-mlogloss:1.13203   eval-merror:0.363095
+[17]    train-mlogloss:0.70068  train-merror:0.275926   eval-mlogloss:1.11383   eval-merror:0.360119
+[18]    train-mlogloss:0.697261 train-merror:0.274074   eval-mlogloss:1.12685   eval-merror:0.380952
+[19]    train-mlogloss:0.69438  train-merror:0.275      eval-mlogloss:1.10271   eval-merror:0.366071
+[20]    train-mlogloss:0.691737 train-merror:0.276852   eval-mlogloss:1.0903    eval-merror:0.386905
+[21]    train-mlogloss:0.689148 train-merror:0.275      eval-mlogloss:1.07459   eval-merror:0.354167
+[22]    train-mlogloss:0.686788 train-merror:0.274074   eval-mlogloss:1.04911   eval-merror:0.354167
+[23]    train-mlogloss:0.684529 train-merror:0.27037    eval-mlogloss:1.03583   eval-merror:0.35119
+[24]    train-mlogloss:0.682683 train-merror:0.267593   eval-mlogloss:1.03448   eval-merror:0.35119
+[25]    train-mlogloss:0.680708 train-merror:0.269444   eval-mlogloss:1.02913   eval-merror:0.345238
+[26]    train-mlogloss:0.679001 train-merror:0.269444   eval-mlogloss:1.02443   eval-merror:0.348214
+[27]    train-mlogloss:0.677256 train-merror:0.268519   eval-mlogloss:1.02332   eval-merror:0.357143
+[28]    train-mlogloss:0.675635 train-merror:0.269444   eval-mlogloss:1.01101   eval-merror:0.345238
+[29]    train-mlogloss:0.673861 train-merror:0.268519   eval-mlogloss:1.00615   eval-merror:0.342262
+[30]    train-mlogloss:0.672208 train-merror:0.268519   eval-mlogloss:0.991934  eval-merror:0.339286
+[31]    train-mlogloss:0.670717 train-merror:0.266667   eval-mlogloss:0.993991  eval-merror:0.33631
+[32]    train-mlogloss:0.669218 train-merror:0.262037   eval-mlogloss:0.999572  eval-merror:0.33631
+[33]    train-mlogloss:0.667873 train-merror:0.264815   eval-mlogloss:0.9927    eval-merror:0.33631
+[34]    train-mlogloss:0.666575 train-merror:0.262963   eval-mlogloss:0.991543  eval-merror:0.33631
+[35]    train-mlogloss:0.66536  train-merror:0.263889   eval-mlogloss:0.995834  eval-merror:0.342262
+[36]    train-mlogloss:0.663862 train-merror:0.262963   eval-mlogloss:1.00186   eval-merror:0.345238
+[37]    train-mlogloss:0.662707 train-merror:0.263889   eval-mlogloss:1.02965   eval-merror:0.354167
+[38]    train-mlogloss:0.661411 train-merror:0.262963   eval-mlogloss:1.01753   eval-merror:0.354167
+[39]    train-mlogloss:0.660387 train-merror:0.262963   eval-mlogloss:1.02476   eval-merror:0.354167
+[40]    train-mlogloss:0.659326 train-merror:0.265741   eval-mlogloss:1.04041   eval-merror:0.357143
+[41]    train-mlogloss:0.658313 train-merror:0.262963   eval-mlogloss:1.08473   eval-merror:0.375
+[42]    train-mlogloss:0.657255 train-merror:0.263889   eval-mlogloss:1.11865   eval-merror:0.386905
+[43]    train-mlogloss:0.656186 train-merror:0.261111   eval-mlogloss:1.16085   eval-merror:0.392857
+[44]    train-mlogloss:0.655247 train-merror:0.262037   eval-mlogloss:1.22782   eval-merror:0.395833
+[45]    train-mlogloss:0.654309 train-merror:0.261111   eval-mlogloss:1.27717   eval-merror:0.39881
+[46]    train-mlogloss:0.653276 train-merror:0.261111   eval-mlogloss:1.34425   eval-merror:0.39881
+[47]    train-mlogloss:0.652413 train-merror:0.260185   eval-mlogloss:1.4375    eval-merror:0.39881
+[48]    train-mlogloss:0.65146  train-merror:0.259259   eval-mlogloss:1.55899   eval-merror:0.401786
+[49]    train-mlogloss:0.650502 train-merror:0.260185   eval-mlogloss:1.60346   eval-merror:0.404762
+[50]    train-mlogloss:0.649685 train-merror:0.259259   eval-mlogloss:1.6871    eval-merror:0.404762
+[51]    train-mlogloss:0.648821 train-merror:0.260185   eval-mlogloss:1.79121   eval-merror:0.41369
+[52]    train-mlogloss:0.647995 train-merror:0.259259   eval-mlogloss:1.86129   eval-merror:0.41369
+[53]    train-mlogloss:0.647179 train-merror:0.259259   eval-mlogloss:1.91101   eval-merror:0.41369
+[54]    train-mlogloss:0.646331 train-merror:0.259259   eval-mlogloss:2.08655   eval-merror:0.416667
+[55]    train-mlogloss:0.645623 train-merror:0.260185   eval-mlogloss:2.19057   eval-merror:0.419643
+[56]    train-mlogloss:0.644858 train-merror:0.259259   eval-mlogloss:2.23203   eval-merror:0.419643
+[57]    train-mlogloss:0.644124 train-merror:0.259259   eval-mlogloss:2.28538   eval-merror:0.419643
+[58]    train-mlogloss:0.64339  train-merror:0.259259   eval-mlogloss:2.33134   eval-merror:0.419643
+[59]    train-mlogloss:0.642734 train-merror:0.259259   eval-mlogloss:2.40284   eval-merror:0.419643
+[60]    train-mlogloss:0.642083 train-merror:0.259259   eval-mlogloss:2.53352   eval-merror:0.419643
+[61]    train-mlogloss:0.641367 train-merror:0.258333   eval-mlogloss:2.53854   eval-merror:0.419643
+[62]    train-mlogloss:0.640716 train-merror:0.257407   eval-mlogloss:2.6126    eval-merror:0.422619
+[63]    train-mlogloss:0.640118 train-merror:0.258333   eval-mlogloss:2.63637   eval-merror:0.422619
+[64]    train-mlogloss:0.639517 train-merror:0.257407   eval-mlogloss:2.65912   eval-merror:0.422619
+[65]    train-mlogloss:0.638921 train-merror:0.258333   eval-mlogloss:2.76032   eval-merror:0.419643
+[66]    train-mlogloss:0.638322 train-merror:0.257407   eval-mlogloss:2.81692   eval-merror:0.419643
+[67]    train-mlogloss:0.637707 train-merror:0.257407   eval-mlogloss:3.05273   eval-merror:0.419643
+[68]    train-mlogloss:0.637107 train-merror:0.257407   eval-mlogloss:3.05991   eval-merror:0.419643
+[69]    train-mlogloss:0.636492 train-merror:0.257407   eval-mlogloss:3.21595   eval-merror:0.428571
+[70]    train-mlogloss:0.635956 train-merror:0.257407   eval-mlogloss:3.27696   eval-merror:0.428571
+[71]    train-mlogloss:0.635374 train-merror:0.257407   eval-mlogloss:3.44665   eval-merror:0.431548
+[72]    train-mlogloss:0.634863 train-merror:0.258333   eval-mlogloss:3.41667   eval-merror:0.434524
+[73]    train-mlogloss:0.634341 train-merror:0.258333   eval-mlogloss:3.50932   eval-merror:0.431548
+[74]    train-mlogloss:0.633803 train-merror:0.257407   eval-mlogloss:3.46429   eval-merror:0.431548
+[75]    train-mlogloss:0.633268 train-merror:0.257407   eval-mlogloss:3.56979   eval-merror:0.431548
+[76]    train-mlogloss:0.632768 train-merror:0.258333   eval-mlogloss:3.70867   eval-merror:0.431548
+[77]    train-mlogloss:0.632287 train-merror:0.258333   eval-mlogloss:3.76106   eval-merror:0.431548
+[78]    train-mlogloss:0.631758 train-merror:0.256481   eval-mlogloss:3.75899   eval-merror:0.434524
+[79]    train-mlogloss:0.631283 train-merror:0.257407   eval-mlogloss:3.8159    eval-merror:0.434524
+[80]    train-mlogloss:0.630846 train-merror:0.257407   eval-mlogloss:3.91389   eval-merror:0.434524
+[81]    train-mlogloss:0.630388 train-merror:0.257407   eval-mlogloss:4.0197    eval-merror:0.440476
+[82]    train-mlogloss:0.629894 train-merror:0.258333   eval-mlogloss:4.04881   eval-merror:0.440476
+[83]    train-mlogloss:0.62945  train-merror:0.257407   eval-mlogloss:4.06753   eval-merror:0.4375
+[84]    train-mlogloss:0.629023 train-merror:0.258333   eval-mlogloss:4.10579   eval-merror:0.440476
+[85]    train-mlogloss:0.628617 train-merror:0.256481   eval-mlogloss:4.13959   eval-merror:0.443452
+[86]    train-mlogloss:0.628196 train-merror:0.257407   eval-mlogloss:4.16638   eval-merror:0.443452
+[87]    train-mlogloss:0.627791 train-merror:0.258333   eval-mlogloss:4.21422   eval-merror:0.443452
+[88]    train-mlogloss:0.627347 train-merror:0.258333   eval-mlogloss:4.22692   eval-merror:0.443452
+[89]    train-mlogloss:0.626925 train-merror:0.258333   eval-mlogloss:4.27264   eval-merror:0.443452
+[90]    train-mlogloss:0.626505 train-merror:0.259259   eval-mlogloss:4.28541   eval-merror:0.443452
+[91]    train-mlogloss:0.626101 train-merror:0.259259   eval-mlogloss:4.32005   eval-merror:0.4375
+[92]    train-mlogloss:0.625689 train-merror:0.258333   eval-mlogloss:4.34535   eval-merror:0.440476
+[93]    train-mlogloss:0.625328 train-merror:0.259259   eval-mlogloss:4.38989   eval-merror:0.443452
+[94]    train-mlogloss:0.624897 train-merror:0.262037   eval-mlogloss:4.37362   eval-merror:0.443452
+[95]    train-mlogloss:0.624499 train-merror:0.258333   eval-mlogloss:4.41851   eval-merror:0.440476
+[96]    train-mlogloss:0.624133 train-merror:0.259259   eval-mlogloss:4.45791   eval-merror:0.443452
+[97]    train-mlogloss:0.623774 train-merror:0.260185   eval-mlogloss:4.47055   eval-merror:0.443452
+[98]    train-mlogloss:0.623391 train-merror:0.260185   eval-mlogloss:4.48636   eval-merror:0.443452
+[99]    train-mlogloss:0.623015 train-merror:0.260185   eval-mlogloss:4.51622   eval-merror:0.443452
+[100]   train-mlogloss:0.622633 train-merror:0.260185   eval-mlogloss:4.56846   eval-merror:0.443452
+[101]   train-mlogloss:0.622287 train-merror:0.259259   eval-mlogloss:4.59255   eval-merror:0.443452
+[102]   train-mlogloss:0.621932 train-merror:0.259259   eval-mlogloss:4.60211   eval-merror:0.440476
+[103]   train-mlogloss:0.621602 train-merror:0.259259   eval-mlogloss:4.61676   eval-merror:0.440476
+[104]   train-mlogloss:0.621237 train-merror:0.259259   eval-mlogloss:4.67754   eval-merror:0.443452
+[105]   train-mlogloss:0.620875 train-merror:0.258333   eval-mlogloss:4.6817    eval-merror:0.443452
+[106]   train-mlogloss:0.620512 train-merror:0.258333   eval-mlogloss:4.69993   eval-merror:0.443452
+[107]   train-mlogloss:0.620172 train-merror:0.259259   eval-mlogloss:4.72798   eval-merror:0.446429
+[108]   train-mlogloss:0.619875 train-merror:0.259259   eval-mlogloss:4.74884   eval-merror:0.446429
+[109]   train-mlogloss:0.619536 train-merror:0.259259   eval-mlogloss:4.83089   eval-merror:0.446429
+[110]   train-mlogloss:0.619194 train-merror:0.259259   eval-mlogloss:4.84845   eval-merror:0.446429
+[111]   train-mlogloss:0.618857 train-merror:0.259259   eval-mlogloss:4.85633   eval-merror:0.443452
+[112]   train-mlogloss:0.618542 train-merror:0.259259   eval-mlogloss:4.857     eval-merror:0.443452
+[113]   train-mlogloss:0.61822  train-merror:0.259259   eval-mlogloss:4.87573   eval-merror:0.446429
+[114]   train-mlogloss:0.617909 train-merror:0.259259   eval-mlogloss:4.89974   eval-merror:0.446429
+[115]   train-mlogloss:0.617613 train-merror:0.259259   eval-mlogloss:4.92772   eval-merror:0.446429
+[116]   train-mlogloss:0.617286 train-merror:0.258333   eval-mlogloss:4.91963   eval-merror:0.443452
+[117]   train-mlogloss:0.616982 train-merror:0.259259   eval-mlogloss:4.9616    eval-merror:0.449405
+[118]   train-mlogloss:0.616687 train-merror:0.258333   eval-mlogloss:4.98369   eval-merror:0.446429
+[119]   train-mlogloss:0.616383 train-merror:0.258333   eval-mlogloss:4.98373   eval-merror:0.446429
+[120]   train-mlogloss:0.616102 train-merror:0.258333   eval-mlogloss:5.01583   eval-merror:0.449405
+[121]   train-mlogloss:0.615795 train-merror:0.258333   eval-mlogloss:5.03157   eval-merror:0.449405
+[122]   train-mlogloss:0.615504 train-merror:0.25463    eval-mlogloss:5.05998   eval-merror:0.449405
+[123]   train-mlogloss:0.615188 train-merror:0.257407   eval-mlogloss:5.08053   eval-merror:0.449405
+[124]   train-mlogloss:0.614916 train-merror:0.258333   eval-mlogloss:5.10095   eval-merror:0.446429
+[125]   train-mlogloss:0.614636 train-merror:0.256481   eval-mlogloss:5.10941   eval-merror:0.446429
+[126]   train-mlogloss:0.614343 train-merror:0.25463    eval-mlogloss:5.12299   eval-merror:0.449405
+[127]   train-mlogloss:0.614073 train-merror:0.255556   eval-mlogloss:5.13443   eval-merror:0.446429
+[128]   train-mlogloss:0.613804 train-merror:0.255556   eval-mlogloss:5.14822   eval-merror:0.449405
+[129]   train-mlogloss:0.613527 train-merror:0.256481   eval-mlogloss:5.16147   eval-merror:0.449405
+[130]   train-mlogloss:0.613249 train-merror:0.255556   eval-mlogloss:5.16001   eval-merror:0.449405
+[131]   train-mlogloss:0.612989 train-merror:0.256481   eval-mlogloss:5.16899   eval-merror:0.449405
+Stopping. Best iteration:
+[31]    train-mlogloss:0.670717 train-merror:0.266667   eval-mlogloss:0.993991  eval-merror:0.33631
+
+             precision    recall  f1-score   support
+
+        0.0       0.86      0.69      0.77       157
+        1.0       0.10      0.02      0.04        45
+        2.0       0.27      0.22      0.24        58
+        3.0       0.41      0.82      0.55        76
+
+avg / total       0.55      0.55      0.53       336
+
